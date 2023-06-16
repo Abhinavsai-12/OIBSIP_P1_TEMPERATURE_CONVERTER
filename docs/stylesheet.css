@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: "mulish", sans-serif;
+}
+body {
+
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("unit.jpg");
+    place-items: center;
+    display: grid;
+    margin: 14%;
+}
+
+h2{
+	color:White;
+}
+
+.container {
+    height: 40vh;
+    width: 50vw;
+    text-align: center;
+    border-radius: 12px;
+}
+#temp {
+    padding: 1%;
+    width: 15%;
+    
+}
+
+#tempSelect {
+    padding: 1%;
+    width: 15%;
+    
+}
+
+#submit {
+    margin: 2%;
+}
+
+span{
+	color:White;
+	size="10";
+	
+}
